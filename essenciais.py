@@ -28,6 +28,5 @@ corte = img[50:200, 200:400]
 cv.imshow('corte', corte)
 
 
-
 cv.waitKey(0)
 cv.destroyAllWindows()

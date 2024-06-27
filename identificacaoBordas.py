@@ -29,6 +29,5 @@ print(f'{len(contornos)} contornos encontrados')
 cv.drawContours(vazio, contornos, -1, (0,0,255), 1)
 cv.imshow('contornos', vazio)
 
-
 cv.waitKey(0)
 cv.destroyAllWindows()

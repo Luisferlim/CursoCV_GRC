@@ -29,6 +29,12 @@ cv.imshow("rgb", rgb)
 cinza_bgr = cv.cvtColor(cinza, cv.COLOR_GRAY2BGR)
 cv.imshow('cinza bgr', cinza_bgr)
 
+# #exercicio 2
+# print(cinza.shape)
+
+# print(hsv.shape)
+
+# print(lab.shape)
 
 cv.waitKey(0)
 cv.destroyAllWindows()

@@ -27,6 +27,5 @@ cv.imshow('adaptativo2', thresh_adaptativo2)
 thresh_adaptativo3 = cv.adaptiveThreshold(cinza, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY_INV, 11, 15)
 cv.imshow('adaptativo3', thresh_adaptativo3)
 
-
 cv.waitKey(0)
 cv.destroyAllWindows()
